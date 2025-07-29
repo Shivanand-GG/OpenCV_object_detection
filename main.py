@@ -3,7 +3,7 @@ import cv2
 from ultralytics import YOLO
 
 # Load the YOLOv8l model
-model = YOLO('yolov8m.pt')
+model = YOLO('yolov8l.pt')
 
 # Open the webcam
 cap = cv2.VideoCapture(0)
